@@ -1,5 +1,5 @@
 # POMODORO TİMER
-A simple Pomodoro timer buikt with python to improve producity and practice programming skills.
+A simple Pomodoro timer built with python to improve producity and practice programming skills.
 
 ## About
 This Python program helps users manage work and break interveals using the classic pomdoro technique. This project was created to practice
