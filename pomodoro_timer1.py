@@ -1,5 +1,7 @@
 import time 
-our_worktime= float(input("write the work hour you want? : "))
+while True: 
+    try:
+        our_worktime= float(input("write the work hour you want? : "))
 
 if  0 <= our_worktime <= 10:            #girilen saati kontrol ediyoruz
  total_seconds = int(our_worktime * 3600)      #verilen saniye ye çeviriyorum sistem saniye üzerinden diye 
@@ -13,7 +15,7 @@ def countdown (seconds):
   secs = seconds % 60
   print(f"{hours:02d}:{minutes:02d}:{secs:02d}" , end="\r")     #sayıları 02:30:55 gibi yazıcak.
   time.sleep(1)
-  seconds-= -1
+  seconds -= 1
 
 work_minutes = 25
 break_minutes = 5
